@@ -13,6 +13,7 @@ Sample dataset used in Tutorial
 
 ## MaltHouse_Dashboard_NY.pbix
 The Power BI file. It will connect to a SQL database.
-To run the R visuals you need to install R on your local machine. R is a language and environment for statistical computing and graphics. You can download it for free from [CRAN Repository](https://cran.r-project.org/bin/windows/base/).
+To run the R visuals you need to install R on your local machine. 
+R is a language and environment for statistical computing and graphics. You can download it for free from [CRAN Repository](https://cran.r-project.org/bin/windows/base/).
 
 For More details about how to use R in Power BI, please visit [PowerBI docs](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-r-scripts)
