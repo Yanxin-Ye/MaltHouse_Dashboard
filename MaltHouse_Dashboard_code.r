@@ -8,6 +8,7 @@
 #' To run R scripts in Power BI, you need to install R on your local machine. You can download and install R for free from the CRAN Repository. (https://cran.r-project.org/bin/windows/base/)
 #' 
 #' # Create Power BI visuals using R
+#' 
 #' After you've installed R, Power BI Desktop enables it automatically. If the \textbf{Enable script visuals} window appears, select \textbf{Enable}.
 #' 
 #' 1. Select the R Visual icon in the Visualization pane to add an R visual.
@@ -24,6 +25,10 @@
 #' 
 #' For more details refer to PowerBI doc: \textbf{Run R scripts in Power BI Desktop}. https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-r-scripts.
 #' 
+#' ## How the Filter Card works?
+#' 
+#' There are several filter cards on the canvas. They control what data goes into the R visuals. If you filter one variable, only filtered
+#' data will go into the R visual. If you clear all filters, all data will go into the R visual.
 #' 
 ## ----setup, include=FALSE----
 knitr::opts_chunk$set(echo = TRUE)
